@@ -1,0 +1,11 @@
+let Height = 40
+let Header = true
+var rowHeight = Height
+if Header {
+    rowHeight = rowHeight + 50
+} else {
+    rowHeight = rowHeight + 20
+}
+# rowHeight 90
+якийсьтекст
+print(rowHeight)
